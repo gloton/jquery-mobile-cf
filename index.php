@@ -18,7 +18,8 @@
 		</div>
 	<!-- contenido -->
 		<div data-role="content">
-			<a href="pagina2.php"  data-role="button" data-theme="a">Ir a pagina 2</a>
+			<p>Estas en la pagina 1</p>
+			<a href="pagina2.php"  data-role="button" data-theme="a" data-transition="slideup">Ir a pagina 2</a>
 		</div>
 	<!-- pie de pagina -->
 		<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>

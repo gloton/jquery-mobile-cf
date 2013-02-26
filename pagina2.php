@@ -19,7 +19,7 @@
 	<!-- contenido -->
 		<div data-role="content">
 			<p>Estas en la pagina 2</p>
-			<a href="#pagina1"  data-role="button" data-theme="a">Ir a pagina 1</a>
+			<a href="#pagina1"  data-role="button" data-theme="a"  data-rel="back">Ir a pagina 1</a>
 		</div>
 	<!-- pie de pagina -->
 		<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
