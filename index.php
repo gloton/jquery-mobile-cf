@@ -15,6 +15,7 @@
 	<!-- cabecera -->
 		<div data-role="header" data-theme="c">
 			<h1>Esto es una cabecera</h1>
+			<a href="pagina2.php">Pagina 2</a>
 		</div>
 	<!-- contenido -->
 		<div data-role="content">
