@@ -9,35 +9,19 @@
 </head>
 
 <body>
-<!-- primera pagina -->
-<div data-role="page" id="pagina1">
-<!-- bajo este datarol contendra toda la aplicacion de nuesto jqm -->
-<!-- cabecera -->
-	<div data-role="header" data-theme="c">
-		<h1>Esto es una cabecera</h1>
+	<!-- primera pagina -->
+	<div data-role="page" id="pagina1">
+	<!-- bajo este datarol contendra toda la aplicacion de nuesto jqm -->
+	<!-- cabecera -->
+		<div data-role="header" data-theme="c">
+			<h1>Esto es una cabecera</h1>
+		</div>
+	<!-- contenido -->
+		<div data-role="content">
+			<a href="pagina2.php"  data-role="button" data-theme="a">Ir a pagina 2</a>
+		</div>
+	<!-- pie de pagina -->
+		<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
 	</div>
-<!-- contenido -->
-	<div data-role="content">
-		<a href="#pagina2"  data-role="button" data-theme="a">Ir a pagina 2</a>
-	</div>
-<!-- pie de pagina -->
-	<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
-</div>
-
-<!-- pagina 2 -->
-<div data-role="page" id="pagina2">
-<!-- bajo este datarol contendra toda la aplicacion de nuesto jqm -->
-<!-- cabecera -->
-	<div data-role="header" data-theme="c">
-		<h1>Pagina 2</h1>
-	</div>
-<!-- contenido -->
-	<div data-role="content">
-		<p>Estas en la pagina 2</p>
-		<a href="#pagina1"  data-role="button" data-theme="a">Ir a pagina 1</a>
-	</div>
-<!-- pie de pagina -->
-	<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
-</div>
 </body>
 </html> 
