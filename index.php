@@ -19,7 +19,23 @@
 	<!-- contenido -->
 		<div data-role="content">
 			<p>Estas en la pagina 1</p>
-			<a href="pagina2.php"  data-role="button" data-theme="a" data-transition="slideup">Ir a pagina 2</a>
+			<a href="#confirmar" data-role="button" data-rel="dialog">eliminar</a>
+		</div>
+	<!-- pie de pagina -->
+		<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
+	</div>
+	<!-- Cuadro de dialogo -->
+	<div data-role="page" id="confirmar">
+	<!-- bajo este datarol contendra toda la aplicacion de nuesto jqm -->
+	<!-- cabecera -->
+		<div data-role="header" data-theme="c">
+			<h1>Esto es una cabecera</h1>
+		</div>
+	<!-- contenido -->
+		<div data-role="content">
+			<p>Estas por eliminar algo, deseas eliminarlo?</p>
+			<a href="#pagina1"  data-role="button" data-rel="back">eliminar</a>
+			<a href="#pagina1"  data-role="button" data-rel="back">cancelar</a>
 		</div>
 	<!-- pie de pagina -->
 		<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
