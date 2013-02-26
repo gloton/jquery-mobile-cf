@@ -18,25 +18,11 @@
 	</div>
 <!-- contenido -->
 	<div data-role="content">
-		<p>A elementum consectetur faucibus vulputate quisque dui cras dui, vehicula dui at cras viverra 
-		phasellus ut semper, augue maecenas ipsum accumsan phasellus netus fusce at pulvinar fringilla 
-		ligula dictumst phasellus congue donec placerat, porta tincidunt cursus vitae eros porta praesent 
-		senectus, rutrum taciti aliquam mattis libero metus nibh neque litora consectetur aptent inceptos 
-		nulla sapien, rhoncus aliquet scelerisque conubia placerat elementum, sapien porta risus sodales 
-		enim quisque vestibulum iaculis praesent quisque eros enim eleifend, neque eget quisque hac 
-		condimentum congue, amet ullamcorper aliquet etiam metus turpis.
-		</p>
-		<p>A elementum consectetur faucibus vulputate quisque dui cras dui, vehicula dui at cras viverra 
-		phasellus ut semper, augue maecenas ipsum accumsan phasellus netus fusce at pulvinar fringilla 
-		ligula dictumst phasellus congue donec placerat, porta tincidunt cursus vitae eros porta praesent 
-		senectus, rutrum taciti aliquam mattis libero metus nibh neque litora consectetur aptent inceptos 
-		nulla sapien, rhoncus aliquet scelerisque conubia placerat elementum, sapien porta risus sodales 
-		enim quisque vestibulum iaculis praesent quisque eros enim eleifend, neque eget quisque hac 
-		condimentum congue, amet ullamcorper aliquet etiam metus turpis.
-		</p>
+		<a href=”#a”  data-role="button" data-theme="a" data-inline="true">botón</a>
+		<a href=”#a”  data-role="button" data-theme="b" data-inline="true">botón2</a>
 	</div>
 <!-- pie de pagina -->
 	<div data-role="footer"><h2>Esto es un pie de pagina</h2></div>
 </div>
 </body>
-</html>
+</html> 
